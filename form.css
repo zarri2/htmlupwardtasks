@@ -1,0 +1,50 @@
+
+.chield1 >input {
+    margin-left: 5vw;
+    width: 20%;
+    height: 2vw;
+}
+.chield2> input {
+    margin-left: 3vw;
+    width: 20%;
+    height: 2vw;
+}
+.chield3> input {
+    margin-left: 4vw;
+    width: 5%;
+    height: 1vw;
+}
+form {
+    margin-left: 40vw;
+}
+.chield4> input {
+    margin-left: 4vw;
+    
+}
+.chield5> select {
+    margin-left: 4vw;
+    width: 20%;
+    height: 2vw;
+}
+.chield6 {
+    display: flex;
+    
+}
+.chield6-1 {
+    margin-left: 2vw;
+}
+.chield7> input {
+    width: 8%;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 50px;
+    color: white;
+    margin-left: 2vw;
+}
+
+.chield1, .chield2, .chield3, .chield4, .chield5, .chield6, .chield7 {
+    margin-top: 2vw;
+}
+h1 {
+    text-align: center;
+}

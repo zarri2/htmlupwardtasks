@@ -4,13 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .navbar >a {
+            color: white;
+            padding: 0 10px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .section >a {
+            margin: 0 10px;
+            padding: 2px;
+        }
+        #home {background-color: blue;}
+        #about {background-color: yellow;}
+        #services {background-color: greenyellow;}
+        #contact {background-color: purple;}
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: black;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+    </style>
 </head>
 <body>
-    <a href="home">Home</a>
-    <section id="home" class="">
-        <h2>Home</h2>
-        <p>Welcome</p>
+    <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    </div>
+    <section id="home" class="section">
+        <h2 style="font-size: 2vw;">Home</h2>
+        <p style="font-size: 1.5vw;">Welcome</p>
     </section>
+    <section id="about" class="section">
+        <h2 style="font-size: 2vw;">About</h2>
+        <p style="font-size: 1.5vw;">About us since 2011</p>
+    </section>
+    </section>
+    <section id="services" class="section">
+    <h2 style="font-size: 2vw;">Services</h2>
+    <p style="font-size: 1.5vw;"> Services We Provides</p>
+    </section>
+    <section id="contact" class="section">
+    <h2 style="font-size: 2vw;">Contact</h2>
+    <p style="font-size: 1.5vw;"> akjsd@gmail.com Mobile:+923434448923</p>
+
+    </section>
+
+    
+
     
 </body>
 </html>

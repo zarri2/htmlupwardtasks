@@ -1,12 +1,12 @@
-/* Styles for main container */
-.main {
+
+.child1 {
     background-color: gray;
     border: 2px solid black;
     display: flex;
 }
 
-/* Styles for child1 */
-.child1 {
+
+.child2 {
     width: 30%;
     background-color: pink;
     border: 2px solid black;
@@ -14,47 +14,44 @@
     margin: 2vw 1vw;
 }
 
-/* Styles for child2 */
-.child2 {
-    width: 60%;
-    background-color: palevioletred;
-    border: 2px solid palevioletred;
-    height: 50vh;
+
+.child3 {
+    width: 60%;;
 }
 
-/* Styles for child2-1 */
-.child2-1 {
+
+.child4 {
     background-color: greenyellow;
     height: 15vh;
-    width: 92%;
+    width: 90%;
     border: 1px solid black;
     margin: 2vw 0vw 1vw 2vw;
 }
 
-/* Styles for child3-1 */
-.child3-1 {
+
+
+.child5 {
     background-color: pink;
     height: 30vh;
     width: 53%;
     border: 1px solid black;
     margin: 2vw 0vw 1vw 2vw;
-    margin-top: 2vh;
 }
 
-/* Styles for child4 */
-.child4 {
+
+.child6 {
     background-color: purple;
     height: 13vh;
-    width: 47vh;
+    width: 44vh;
     border: 1px solid black;
-    margin: 1vw -32vw 1vw 1vw;
+    margin: 0vw -31vw 1vw 33vw;
 }
 
-/* Styles for child5 */
-.child5 {
+
+.child7 {
     background-color: rebeccapurple;
     height: 6vw;
-    width: 47vh;
+    width: 44vh;
     border: 1px solid black;
-    margin: 1vw 2vw 1vw 1vw;
+    margin: 0vw 2vw 1vw 33vw;
 }

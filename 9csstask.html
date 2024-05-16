@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page Website with Disappearing Navbar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+            transition: top 0.3s; 
+            z-index: 1000; 
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        
+        #home { background-color: #f2f2f2; }
+        #about { background-color: #ddd; }
+        #gallery { background-color: #ccc; }
+        #services { background-color: #bbb; }
+        #contact { background-color: #aaa; }
+
+        
+        .hidden {
+            top: -50px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <section id="home" class="section">
+        <h2>Home</h2>
+        <p>Welcome to home</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About</h2>
+        <p>We are providing our services since 2011</p>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2>Gallery</h2>
+        <p>Welcome to Gallery</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Services</h2>
+        <p>Services we provide</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>adjksd@gmail.come Mobile: +923458785745</p>
+    </section>
+
+    
+    <script>
+        let prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            let currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+</body>
+</html>

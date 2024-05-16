@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.navbar >a {
+    color: white;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.section >a {
+    margin: 0 10px;
+    padding: 2px;
+}
+#home {background-color: blue;}
+#about {background-color: yellow;}
+#services {background-color: greenyellow;}
+#contact {background-color: purple;}
+.navbar {
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+.section2 h2 {
+    font-size: 2vw;
+}
+.section2 p {
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width : 600px) {
+    .navbar >a {
+        font-size: 4vw;
+    }
+    .section2 h2 {
+        font-size: 6vw;
+    }
+    .section2 p {
+        font-size: 4vw;
+    }
+}
